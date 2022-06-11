@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script defer src="render.js" charset="utf-8"></script>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' http://localhost:3000; script-src 'self' http://localhost:3000 'unsafe-inline'">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <iframe id="iframe" src="http://localhost:3000"
+    width="1000px" height="1000px" title="W3Schools Free Online Web Tutorials" onload="anan()"></iframe> 
+    <button onclick="anan()">Send</button>
+  </body>
+</html>
